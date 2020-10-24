@@ -91,7 +91,7 @@ notebook/pc:
 .doporucujeme {
     display: flex;
     flex-direction: column;
-    max-width: 479px;
+    max-width: 350px;
 }
 
 .hlavni-recept {
