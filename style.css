@@ -51,6 +51,8 @@ notebook/pc:
 .recept-komentare {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.8rem;
+    color: white;
+    filter: none;
 }
 
 .recept-meta {
@@ -69,12 +71,15 @@ notebook/pc:
     padding-top: 0.5rem;
 }
 
-.hlavni-recept.recept-nazev {
+.hlavni-recept h2 {
     font-size: 1.75rem;
+    color:  white;
+    filter: none;
 }
 
-.recept.recept-nazev {
+.recept h2 {
     font-size: 1.2rem;
+    color: white;
 }
 
 .recept {
@@ -95,36 +100,41 @@ notebook/pc:
     justify-content:space-between;
 }
 .hlavni-recept {
-    background-image: url("burger.jpg");
+    background-image: url(../images/burger.jpg);
     background-size: cover;
     background-position: center;
     min-height: 200px;
+    filter: brightness(75%);
 }
 
 .recept2 { 
-    background-image: url(sushi.jpg);
+    background-image: url(../images/sushi.jpg);
     min-height: 90px;
     background-size: cover;
     background-position: center;
+    filter: brightness(75%);
 }
 
 .recept3 { 
-    background-image: url(rajcata.jpg);
+    background-image: url(../images/rajcata.jpg);
     min-height: 90px;
     background-size: cover;
     background-position: center;
+    filter: brightness(75%);
 }
 
 .recept4 { 
-    background-image: url(kure.jpg);
+    background-image: url(../images/kure.jpg);
     min-height: 90px;
     background-size: cover;
     background-position: center;
+    filter: brightness(75%);
 }
 
 .recept5 { 
-    background-image: url(grilovani.jpg);
+    background-image: url(../images/grilovani.jpg);
     min-height: 90px;
     background-size: cover;
     background-position: center;
+    filter: brightness(75%);
 }
