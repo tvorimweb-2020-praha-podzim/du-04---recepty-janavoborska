@@ -100,11 +100,10 @@ notebook/pc:
     justify-content:space-between;
 }
 .hlavni-recept {
-    background-image: url(../images/burger.jpg);
+    background: linear-gradient(transparent, rgb(116, 88, 74)), url(/images/burger.jpg);
     background-size: cover;
     background-position: center;
     min-height: 200px;
-    filter: brightness(75%);
 }
 
 .recept2 { 
