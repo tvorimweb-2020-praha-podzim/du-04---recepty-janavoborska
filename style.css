@@ -219,6 +219,7 @@ notebook/pc:
         min-height: 150px;
         background-size: cover;
         background-position: center;
+        border-bottom: 0.1rem solid white;
     }
     
     .recept3 { 
@@ -245,6 +246,7 @@ notebook/pc:
 .sloupec {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     flex-basis: 50%;
     border-right: 1px solid white;
 }
@@ -348,6 +350,7 @@ notebook/pc:
         min-height: 200px;
         background-size: cover;
         background-position: center;
+        order: 3;
     }
     
     .recept5 { 
@@ -359,7 +362,7 @@ notebook/pc:
 
 .sloupec {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     
 .recept {
